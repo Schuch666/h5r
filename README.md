@@ -11,4 +11,6 @@ mv master h5r-source.zip
 
 unzip h5r-source.zip
 
-R CMD INSTALL --configure-args="--with-hdf5=${HDF5_HOME}" h5r-master´
+R CMD INSTALL --configure-args="--with-hdf5=${HDF5_HOME}" h5r-master
+
+rm -r h5r-source.zip h5r-master
